@@ -1,0 +1,215 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: small;
+    margin:0%;
+    
+}
+h1{
+    font-weight: normal;
+    margin-top: 0;
+    padding-top: 4%;
+}
+h2{
+    font-weight: 100;
+}
+
+#search{
+     width: 89%;
+     border: none;
+}
+#first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F23838;
+    font-weight:600 ;
+    font-size: 1.5rem;
+    height: 4.5ex;
+    
+}
+#first>img{
+    height: 1.5rem;
+    padding-right: 1ex  ;
+}
+
+
+#second{
+    
+    background-image: url(imagens/london.jpg);
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+.destino{
+    display: inline-block;
+    margin-left: 1em;    
+    margin-right: none;
+    margin-top: 4ex;
+    
+
+}
+.destino>input{
+    padding: 10px;
+    width: 52ex;
+    border-color: lightgray;
+    border-style: solid;
+    
+   
+}
+#insidesecond{
+    background-color: white;
+    align-self: center;
+    margin: 16em;  
+    width: 60%;  
+    height: 20em;
+    font-size: 2.5ex;
+    
+}
+#insidesecond>h2{
+    margin-top: 4%;
+    margin-bottom: 0;
+    margin-left: 0.5em;
+}
+
+
+#fhr{
+   display: flex;
+   justify-content: space-around;    
+       
+    
+}
+.fhr{
+    text-align: center;
+    background-color: black;width: 100%;
+    width: 33,3%;
+    text-decoration:none;
+    color: white;
+    padding: 10px;
+    
+}
+#flight{    
+    background-color: #F23838;
+
+}
+#searchtrip{
+    margin-left: 1em;
+    border: none;
+    padding: 12px;
+    margin-top: 2%;
+    background-color: grey;
+    color: white;
+    width: 29%;
+}
+main{
+    background-color:#F2F2F2;
+}
+#content{
+    margin-left: 10%;
+    margin-right:10%;
+}
+#third{
+    display: flex;
+    
+    
+   
+}
+#cinque{
+   width: 45%;
+}
+#cinque>img{
+    max-width: 100%;
+    max-height: 100%;
+}
+#thirdimg{
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#thirdimg>img{
+    height: 47%;
+    width: 47%;
+    margin-left: 1em;
+
+}
+.cima{
+    margin-bottom: 0.5em;
+}
+.baixo{
+    margin-top: 0.5em;
+}
+#fourth{
+    display: inline-flex;
+    
+}
+#fourth>span{
+    width: 47%;
+    background-color: white;
+    height: 40em;
+}
+#fourth>span>img{
+    width: 100%;
+    height: 60%;
+}
+#fourth>span>p{
+    margin-top: 5%;
+    margin-left: 1em;
+}
+#spana{
+    margin-right: 0.5em;
+}
+#spanb{
+    margin-left: 0.5em;
+}
+#fifth{
+    background-color:#606060;
+    color: white;
+}
+#fifth>input{
+    padding: 10px;
+    width: 96%;
+    margin-left: 1%;
+    margin-bottom: 1em;
+}
+#fifth>button{
+    padding: 10px;
+    margin-left:1% ;
+    margin-bottom: 1%;
+    background-color: #F28585;
+    border: #F28585;   
+    color: white;
+}
+#fifth>h2{
+    padding-top: 2%;
+    margin-left: 1%;
+}
+#fifth>p{
+    padding-top: 2%;
+    margin-left: 1%;
+}
+#sixth>input{
+    padding: 12px;
+    width: 100%;
+    margin-top: 1em;
+    border-color: rgba(128, 128, 128, 0.295);
+    border-style: solid;
+    border-spacing: 0.1em;
+}
+#sixth>button{
+    padding: 12px;
+    margin-top: 1em;
+    background-color: black;
+    color: white;
+}
+#sixth>p{
+    font-size: 3ex;
+    margin: 0ex;
+}
+#sixth>h2{
+    font-size: 6ex;
+}
