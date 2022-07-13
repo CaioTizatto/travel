@@ -5,74 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
   
 <div id="first">
   <img src="icons/placeholder.png" alt="placeholder"> 
   <span>Logo</span>
-  <input id="search"  type="text"><img src="icons/buscar.png" alt="lupa icone">
+  <input  type="text">
+  <img src="icons/buscar.png" alt="lupa icone">
 </div>
-  <div id="second"> <!-- background london -->
-    <div id="insidesecond" >
-      <div id="fhr"> <!--flight/hotel/rental-->
-        <a class="fhr" id="flight" href="">
-          <span>
+<!-- background london -->
+  <div id="second"> 
+    <div class="whitebg" id="insidesecond" >
+      
+      <div class="whitecolor" id="fhr"> 
+        
+          <span class="botaoconteudo"  id="flight">
             ✈ Flight
-          </span>
-        </a>
-        <a class="fhr" href="">
-          <span >
+          </span>       
+          <span class="botaoconteudo" id="hotel">
             🏨 Hotel
           </span>
-        </a>
-        <a class="fhr" href="">
-          <span >
+          <span class="botaoconteudo" id="rental">
             🚗 Rental
           </span>
-        </a>
       </div>
-      
-      <h2>Travel the world with us</h2>
-      <span class="destino">
-        From <br>
-        <input placeholder="Departing from" type="text">
-      </span>
-      <span class="destino">
-        To <br>
-        <input placeholder="Arriving at" type="text">
-      </span>
-      <br>
-      <button id="searchtrip">Search and find dates</button>
-    </div>
+
+      <div class="conteudomutavel" id="flightcontent">        
+        <h2 class="margintexto">Travel the world with us</h2>
+        <span class="destino">
+          <p class="margintexto" >From</p> 
+          <input placeholder="Departing from" type="text">
+        </span>
+        <span class="destino">
+          <p class="margintexto" > To</p> 
+          <input placeholder="Arriving at" type="text">
+        </span>
+        <br>
+        <button class="whitecolor" >Search and find dates</button>
+      </div>
+    <!-- JS troca de conteúdo 
+       <div class="conteudomutavel" id="hotelcontet">
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem, ipsum dolor.</p>
+        Lorem ipsum dolor sit.
+      </div>
+      <div class="conteudomutavel" id="rentalcontent">
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <p>Lorem, ipsum.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+    </div>-->
   </div>
+</div>
 <main>
   <div id="content">    
     <h1>Good Offers Right Now</h1>
     <h2>Up to <strong>50%</strong> discount.</h2>
     <div id="third">
-      <div id="cinque"><img src="imagens/cinqueterre.jpg" alt="hill houses"></div>
-      <div id="thirdimg">
+        <img id="cinque" src="imagens/cinqueterre.jpg" alt="hill houses">
         <img class="cima" src="imagens/newyork.jpg" alt="statue of liberty">
         <img class="cima" src="imagens/sanfran.jpg" alt="bridge over a river"> 
         <img class="baixo" src="imagens/pisa.jpg" alt="pisa tower">
         <img class="baixo"src="imagens/paris.jpg" alt="eiffel tower">
-      </div>
+      
     </div>
 
     <h1>Explore Nature</h1>
     <h2>Travel with us and see nature at its finest</h2>
     
       <div id="fourth">
-        <span id="spana">
+        <span class="whitebg">
             <img src="imagens/ocean.jpg" alt="ocean">
             <p>West Coast, Norway</p>
             <p>Roundtrip from $79</p>
             <p>Praesent tincidunt sed tellus ut sed vitae justo.</p>
             <p>Buy Tickets</p>
         </span>
-        <span id="spanb">
+        <span class="whitebg">
             <img src="imagens/mountains.jpg" alt="snowy mountains">
             <p>Mountains, Austria</p>
             <p>One-way from $39</p>
@@ -102,9 +115,7 @@
              <P>Find Us On</P>
       </div>
   </div>
- 
-
 </main>
-  
+  <script src="vanilla.js"></script>
 </body>
 </html>
